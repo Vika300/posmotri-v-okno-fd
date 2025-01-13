@@ -109,7 +109,7 @@ html {
   flex-direction: column;
 }
 
-.content__video-card-title{
+.content__video-card-title {
   font-family: Oswald;
   font-size: 30px;
   font-weight: 700;
@@ -128,7 +128,7 @@ html {
   text-align: left;
   display: -webkit-box;
   -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical; 
+  -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
@@ -226,7 +226,6 @@ gap:10px;
   width: 19px;
   height: 19px;
   gap: 20px;
-  border: 1px 0px 0px 0px;
   opacity: 0px;
   margin-top: 1.5px;
   margin-right: 5px;
