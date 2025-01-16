@@ -189,12 +189,12 @@ html {
   outline-offset: 1px;
 }
 
-.search-form__label:hover {
-  text-decoration: underline;
-}
-
 .search-form__label-text {
   gap: 10px;
+}
+
+.search-form__label-text:hover {
+  text-decoration: underline;
 }
 
 .search-form__textfield {
@@ -209,8 +209,11 @@ html {
   border-right: 0;
   border-top: 1px solid #FFF;
   border-bottom: 1px solid #FFF;
-  opacity: 0.7;
   min-width: 225px;
+}
+
+.search-form__textfield::placeholder {
+  opacity: 0.7;
 }
 
 .search-form__textfield:focus {
