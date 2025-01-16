@@ -184,6 +184,10 @@ html {
   cursor: pointer;
 }
 
+.search-form__label:hover .search-form__label-text  {
+  text-decoration: underline;
+}
+
 .search-form__label:has(:focus-visible) {
   outline: 1px solid white;
   outline-offset: 1px;
@@ -191,10 +195,6 @@ html {
 
 .search-form__label-text {
   gap: 10px;
-}
-
-.search-form__label-text:hover {
-  text-decoration: underline;
 }
 
 .search-form__textfield {
